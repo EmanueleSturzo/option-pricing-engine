@@ -22,11 +22,24 @@ A Python library for pricing European and American options using multiple quanti
 
 ## Quick Start
 
+# Clone the repo
+git clone https://github.com/EmanueleSturzo/DCF-Valuation-Model.git
+(download zip file and extract)
+
+for Mac:
+cd ~/Downloads/DCF-Valuation-Model-main
+
+for windows:
+cd C:\Users\YourName\Downloads\DCF-Valuation-Model-main
+
+# Install dependencies
 ```bash
 pip install -r requirements.txt
 
 # Launch web app
 streamlit run streamlit_app.py
+
+or, if it doesn't work : python -m streamlit run streamlit_app.py
 
 # Or use CLI
 python price_option.py --spot 100 --strike 105 --maturity 0.5 --rate 0.05 --vol 0.25

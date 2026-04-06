@@ -67,6 +67,14 @@ The Streamlit web app provides an interactive interface with:
 
 ## Sample Output
 
+### Black-Scholes Model
+![black-scholes](media/black_scholes.gif)
+
+### Monte Carlo Simulation
+![monte-carlo](media/monte_carlo.gif)
+
+### Binomial Model
+![binomial](media/binomial.gif)
 ```
 =================================================================
   OPTION PRICING ENGINE
